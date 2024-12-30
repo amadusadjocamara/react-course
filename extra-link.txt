@@ -1,4 +1,6 @@
 ############################
         Course Link        #
 ############################
-https://github.com/jonasschmedtmann/ultimate-react-course
+001) https://github.com/jonasschmedtmann/ultimate-react-course
+002) https://cs50.harvard.edu/x/2024/
+
