@@ -1,0 +1,12 @@
+const fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+const colors = ["red", "green", "blue", "yellow", "purple"];
+console.log(fruits);
+const friends = ["sakib", "sakib", "sakib", "sakib", "sakib"];
+console.log(friends.push("Amadu"));
+console.log(friends);
+console.log(friends.unshift("Amadu"));
+console.log(friends);
+console.log(friends.pop("Amadu"));
+console.log(friends);
+console.log(friends.shift("Amadu"));
+console.log(friends);
