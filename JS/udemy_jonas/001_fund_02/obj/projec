@@ -1,0 +1,36 @@
+/* Write your code below. Good luck! 🙂 */
+
+const mark={
+    fullName: "Marks Miller ",
+    mass: 78,
+    height:1.69,
+    calcBMI: function(){
+        this.bmi = this.mass / (this.height * this.height);
+        return this.bmi;
+        
+    }
+};
+const john ={
+    fullName: "John Smith",
+    mass: 92,
+    height: 1.95,
+    calcBMI: function(){
+        this.bmi = this.mass / (this.height * this.height);
+        return this.bmi;
+    }
+};
+
+john.calcBMI();
+mark.calcBMI();
+console.log(john.bmi, mark.bmi);
+
+if (john.bmi > mark.bmi){
+     console.log(`${john.fullName} BMI ${john.bmi} is higher than ${mark.fullName} ${mark.bmi}!`) 
+}
+else{
+   console.log(`${mark.fullName} BMI ${mark.bmi} is higher than ${john.fullName} ${john.bmi}!`) 
+}
+console.log(`${mark.bmi > john.bmi 
+    ? `${mark.fullName}'s BMI (${mark.bmi.toFixed(1)}) is higher than ${john.fullName}'s (${john.bmi.toFixed(1)})!`
+    : `${John.fullName}'s BMI (${John.bmi.toFixed(1)}) is higher than ${Mark.fullName}'s (${Mark.bmi.toFixed(1)})!`
+}`);
